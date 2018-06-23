@@ -136,3 +136,23 @@ def produce(c):
 
 c = consumer()
 produce(c)
+
+
+def deco(func):
+    def d_deco():
+        print("before myfunc() called.")
+        func()
+        print("after myfunc() called.")
+        # 不需要返回func，实际上应返回原函数的返回值
+
+    return d_deco
+
+
+@deco
+def myfunc():
+    print(" myfunc() called.")
+    return 'ok'
+
+
+myfunc()
+myfunc()
