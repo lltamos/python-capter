@@ -1,0 +1,198 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+.idea/dataSources.local.xml
+.idea/thriftCompiler.xml
+.idea/workspace.xml
+.idea/encodings.xml
+lessin/Scrapy/
+lessin/web/
+nodejs/node_modules/.bin/
+nodejs/node_modules/accepts/
+nodejs/node_modules/array-flatten/
+nodejs/node_modules/body-parser/HISTORY.md
+nodejs/node_modules/body-parser/LICENSE
+nodejs/node_modules/body-parser/README.md
+nodejs/node_modules/body-parser/index.js
+nodejs/node_modules/body-parser/package.json
+nodejs/node_modules/bytes/
+nodejs/node_modules/content-disposition/
+nodejs/node_modules/content-type/
+nodejs/node_modules/cookie-signature/
+nodejs/node_modules/cookie/
+nodejs/node_modules/debug/
+nodejs/node_modules/depd/History.md
+nodejs/node_modules/depd/LICENSE
+nodejs/node_modules/depd/Readme.md
+nodejs/node_modules/depd/index.js
+nodejs/node_modules/depd/package.json
+nodejs/node_modules/destroy/
+nodejs/node_modules/ee-first/
+nodejs/node_modules/encodeurl/
+nodejs/node_modules/escape-html/
+nodejs/node_modules/etag/
+nodejs/node_modules/express/History.md
+nodejs/node_modules/express/LICENSE
+nodejs/node_modules/express/Readme.md
+nodejs/node_modules/express/index.js
+nodejs/node_modules/express/package.json
+nodejs/node_modules/finalhandler/
+nodejs/node_modules/forwarded/
+nodejs/node_modules/fresh/
+nodejs/node_modules/http-errors/
+nodejs/node_modules/iconv-lite/.travis.yml
+nodejs/node_modules/iconv-lite/Changelog.md
+nodejs/node_modules/iconv-lite/LICENSE
+nodejs/node_modules/iconv-lite/README.md
+nodejs/node_modules/iconv-lite/encodings/
+nodejs/node_modules/iconv-lite/package.json
+nodejs/node_modules/inherits/
+nodejs/node_modules/ipaddr.js/LICENSE
+nodejs/node_modules/ipaddr.js/README.md
+nodejs/node_modules/ipaddr.js/ipaddr.min.js
+nodejs/node_modules/ipaddr.js/package.json
+nodejs/node_modules/media-typer/
+nodejs/node_modules/merge-descriptors/
+nodejs/node_modules/methods/
+nodejs/node_modules/mime-db/
+nodejs/node_modules/mime-types/
+nodejs/node_modules/mime/LICENSE
+nodejs/node_modules/mime/README.md
+nodejs/node_modules/mime/cli.js
+nodejs/node_modules/mime/mime.js
+nodejs/node_modules/mime/package.json
+nodejs/node_modules/mime/types.json
+nodejs/node_modules/ms/
+nodejs/node_modules/negotiator/HISTORY.md
+nodejs/node_modules/negotiator/LICENSE
+nodejs/node_modules/negotiator/README.md
+nodejs/node_modules/negotiator/index.js
+nodejs/node_modules/negotiator/package.json
+nodejs/node_modules/on-finished/
+nodejs/node_modules/parseurl/
+nodejs/node_modules/path-to-regexp/
+nodejs/node_modules/proxy-addr/
+nodejs/node_modules/qs/.editorconfig
+nodejs/node_modules/qs/.eslintignore
+nodejs/node_modules/qs/.eslintrc
+nodejs/node_modules/qs/CHANGELOG.md
+nodejs/node_modules/qs/LICENSE
+nodejs/node_modules/qs/README.md
+nodejs/node_modules/qs/package.json
+nodejs/node_modules/qs/test/
+nodejs/node_modules/range-parser/
+nodejs/node_modules/raw-body/
+nodejs/node_modules/safe-buffer/
+nodejs/node_modules/safer-buffer/
+nodejs/node_modules/send/
+nodejs/node_modules/serve-static/
+nodejs/node_modules/setprototypeof/
+nodejs/node_modules/statuses/
+nodejs/node_modules/type-is/
+nodejs/node_modules/unpipe/
+nodejs/node_modules/utils-merge/
+nodejs/node_modules/vary/

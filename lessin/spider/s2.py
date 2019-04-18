@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -16,8 +15,7 @@ if __name__ == '__main__':
     # f.write(str(div[0].text))
     # f.close()
 
-    a_bf = BeautifulSoup(str(div[0]),'html5lib')
+    a_bf = BeautifulSoup(str(div[0]), 'html5lib')
     a = a_bf.find_all('a')
     for each in a:
         print(each.string, server + each.get('href'))
-
