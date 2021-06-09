@@ -3,24 +3,22 @@ from bs4 import BeautifulSoup as bf
 
 
 class SpiderUtil(object):
-
-
-
-    def fetch(url):
-        if url is None:
+    def fetch(self):
+        if self is None:
             return None
         try:
-            resp = requests.get(url)
+            resp = requests.get(self)
             if resp.status_code == 200:
+                print(resp.text)
                 return resp.text
             return None
         except:
             return None
 
-    def parse_item(resp):
+    def parse_item(self):
         deic_list = []
-        bf_r = bf(resp, 'html5lib')
-        rlist = bf_r.find_all('li', class_='ui-slide-item', attrs={'data-title': True});
+        bf_r = bf(self, 'html5lib')
+        rlist = bf_r.find_all('li', class_='ui-slide-item', attrs={'data-title': True})
         for r in rlist:
             deic_item = {}
             deic_item['data-title'] = r['data-title']
